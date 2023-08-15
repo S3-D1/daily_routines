@@ -23,11 +23,11 @@ jobs:
           node-version: "18"
       - run: npm install -g @angular/cli
       - run: npm install
+      - run: ng build
       - name: run ESLint
         run: ng lint
       - name: Run Karma Tests
         run: ng test
-      - run: ng build
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.8
         with:
