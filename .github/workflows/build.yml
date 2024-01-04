@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "20"
       - run: npm install -g @angular/cli
-      - run: npm install
+      - run: npm install --include=optional
       - run: ng build
       - name: run ESLint
         run: ng lint
