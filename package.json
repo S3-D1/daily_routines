@@ -48,7 +48,7 @@
     "typescript": "~5.2.2"
   },
   "optionalDependencies": {
-    "@nx/nx-darwin-arm64": "16.8.1",
+    "@nx/nx-darwin-arm64": "17.2.8",
     "@nx/nx-darwin-x64": "16.8.1",
     "@nx/nx-linux-x64-gnu": "16.8.1",
     "@nx/nx-linux-x64-musl": "16.8.1",
