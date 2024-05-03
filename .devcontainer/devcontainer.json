@@ -1,0 +1,11 @@
+{
+  "name": "Angular",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+
+  "settings": {},
+
+  "extensions": [],
+  "forwardPorts": [4200]
+}
